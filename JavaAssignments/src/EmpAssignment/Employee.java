@@ -10,6 +10,9 @@ public class Employee {
 	int empSalary;
 	String[] empDependents;
 	
+	public Employee() {}
+
+	
 	public Employee(String sSN, Name empName, int empAge, Address empAddress, int empSalary, String[] empDependents) {
 		super();
 		this.sSN = sSN;
